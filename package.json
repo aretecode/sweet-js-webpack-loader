@@ -1,0 +1,61 @@
+{
+  "name": "sweet-js-webpack-loader",
+  "license": "MIT",
+  "version": "0.0.2",
+  "description": "webpack loader that supports sweetjs2.2+",
+  "repository": "git@github.com:aretecode/sweet-js-webpack-loader.git",
+  "main": "lib/index.js",
+  "jsnext:main": "src/index.js",
+  "module": "es/index.js",
+  "npm": {
+    "esModules": true
+  },
+  "files": [
+    "es6",
+    "lib",
+    "umd"
+  ],
+  "keywords": [
+    "loader",
+    "sweetjs",
+    "webpack",
+    "babel"
+  ],
+  "scripts": {
+    "build": "nwb build",
+    "clean": "nwb clean-app",
+    "test": "echo '@TODO: tests for loader';"
+  },
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-cli": "^6.11.4",
+    "babel-core": "^6.18.2",
+    "babel-eslint": "^7.1.0",
+    "babel-loader": "^6.2.8",
+    "babel-plugin-external-helpers": "^6.18.0",
+    "babel-plugin-syntax-exists": "0.0.3",
+    "babel-plugin-transform-async-to-generator": "^6.16.0",
+    "babel-plugin-transform-class-properties": "6.18.0",
+    "babel-plugin-transform-decorators-legacy": "1.3.4",
+    "babel-plugin-transform-flow-strip-types": "6.18.0",
+    "babel-plugin-transform-object-rest-spread": "6.8.0",
+    "babel-plugin-transform-react-jsx": "^6.8.0",
+    "babel-plugin-transform-regenerator": "^6.16.1",
+    "babel-plugin-transform-runtime": "^6.15.0",
+    "babel-plugin-webpack-loaders": "^0.8.0",
+    "babel-polyfill": "^6.16.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-es2015-webpack2": "^1.0.0",
+    "babel-preset-stage-0": "6.16.0",
+    "babel-runtime": "6.18.0",
+    "eslint": "^3.10.0",
+    "eslint-loader": "1.5.0",
+    "eslint-plugin-no-for-each": "0.1.10",
+    "sweet.js": "^1.0.0",
+    "webpack-node-externals": "1.5.4",
+    "sweet.js": "^2.2.1",
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
+    "nwb": "0.12.2"
+  }
+}
